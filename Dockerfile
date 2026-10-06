@@ -1,3 +1,5 @@
+# Image: ghcr.io/ajaymalah/sivaxi-searxng:latest
+
 FROM searxng/searxng:latest
 
-COPY searxng/settings.yml /etc/searxng/settings.yml
+COPY ./settings.yml /etc/searxng/settings.yml

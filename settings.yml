@@ -9,5 +9,5 @@ search:
     - json
 
 server:
+  secret_key: "sivaxi-searxng-7f4c9a21e8b63d0f5a7c2e9b1d6f8a43c0e7b5d2f9a1c6e8"
   base_url: https://search.sivaxi.com
-  limiter: true
